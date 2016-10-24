@@ -3,12 +3,11 @@
 // Declare app level module which depends on views, and components
 angular.module('shelexCollections', [
   'ngRoute',
-  'shelexCollections.view1',
-  'shelexCollections.view2',
+  'shelexCollections.aboutus',
+  'shelexCollections.contactus',
   'shelexCollections.shelex'
 ]).
-config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
-
-  $routeProvider.otherwise({redirectTo: '/shelex'});
+config(['$routeProvider', function($routeProvider) {
+  $routeProvider
+  .otherwise({redirectTo: '/shelex'});
 }]);

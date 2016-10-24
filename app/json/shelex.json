@@ -1,0 +1,166 @@
+[
+	{
+		"id" : 1,
+		"name":"Cool Shirts",
+		"description":"Get ready for a relaxed day in the sun wearing this short-sleeve polo shirt. This 100 percent cotton shirt is comfortable and breathable, and because it's preshrunk, you can count on a perfect fit every time you wear it.",
+		"type": "shirts",
+		"price": 9.99,
+		"images": [
+			{
+				"name": "shirt1.jpg"
+			},
+			{
+				"name": "shirt10.jpg"
+			},
+			{
+				"name": "shirt1.jpg"
+			},
+			{
+				"name": "shirt11.jpg"
+			},
+			{
+				"name": "shirt1.jpg"
+			}
+		]
+	},
+	{	
+		"id" : 2,
+		"name":"fit Shirts",
+		"description":"Enjoy the generous cut of this polo shirt that gives you great range of motion on the golf course, or wear it on casual Friday to look great at the office. The fabric feels substantial and durable between your fingers and soft against your skin.",
+		"type": "shirts",
+		"price": 9.99,
+		"images": [
+			{
+				"name": "shirt2.jpg"
+			}
+		],
+		"soldOut":true
+	},
+	{
+		"id" : 3,
+		"name":"Awesome Shirts",
+"description":"Feel fantastic in this handsome, slim fit shirt. The white cuffsand collar mix professional with casual as you impress those aroundyou throughout the day or a night out on the town.",		
+"type": "Clothes",
+		"price": 12.99,
+		"images": [
+			{
+				"name": "shirt3.jpg"
+			}
+		]
+	},
+	{
+		"id" : 4,
+		"name":"Correct Shirts",
+"description":"This short sleeve t-shirt is a wardrobe staple. Made from supersoft cotton, the Hanes t-shirt is preshrunk to resist shrinking andfading with shoulder tape for added durability.",		
+"type": "Clothes",
+		"price": 12.99,
+		"images": [
+			{
+				"name": "shirt4.jpg"
+			}
+		]
+	},
+	{
+		"id" : 5,
+		"name":"Wet Shirts",
+"description":"Embrace the classic style of flannel with its modern resurgence.The shirt is incredibly comfortable and made out of 100-percent cotton.",		
+"type": "Shirt",
+		"price": 9.99,
+		"images": [
+			{
+				"name": "shirt5.jpg"
+			}
+		]
+	},
+	{
+		"id" : 6,
+		"name":"Senoir Shirts",
+"description":"Beef up your wardrobe with this classic and versatile men's dress shirt. The solid, neutral color works well on its own or when paired with a blazer or vest. Classic detailing includes a straight-point collar, button front and inverted back pleat, making this shirt ideal for the office or formal social situations.",	
+"type": "Shirt",
+		"price": 15.99,
+		"available": true,
+		"images": [
+			{
+				"name": "shirt6.jpg"
+			}
+		]
+	},
+	{
+		"id" : 7,
+		"name":"Better Shirts",
+"description":"Enjoy the versatility of the convertible cuffs with dual buttons, which allow you to get just the right fit using the button closures or your favorite cuff links. A cotton and polyester blend makes the shirt breathable for a comfortable fit that keeps you cool. Wash the shirt in your own washing machine for easy care.",	
+"type": "Shirt",
+		"price": 15.99,
+		"available": true,
+		"images": [
+			{
+				"name": "shirt7.jpg"
+			}
+		]
+	},
+	{
+		"id" : 8,
+		"name":"Sun Shirts",
+"description":"Hey you, handsomely dressed guy. Yes you. Strike up a sleek, stylish look in this unique fashion shirt, exclusively from BriO Milano. Crafted with the finest materials and unparalleled style, this shirt is the perfect solution for work attire or just a casual night out",	
+"type": "Clothes",
+		"price": 15.99,
+		"available": true,
+		"images": [
+			{
+				"name": "shirt8.jpg"
+			}
+		]
+	},
+	{
+		"id" : 9,
+		"name":"Beach Shirts",
+"description":"Bring fun color to your dress wardrobe with this patterned slim-fit shirt. This cotton-blend shirt offers extra stretch and a full lining for comfortable wear and a smooth-seam design for a tailored appearance",	
+"type": "Shirt",
+		"price": 15.99,
+		"available": true,
+		"images": [
+			{
+				"name": "shirt9.jpg"
+			}
+		]
+	},
+	{
+		"id" : 10,
+		"name":"Sleeve Shirts",
+"description":"Bring fun color to your dress wardrobe with this patterned slim-fit shirt. This cotton-blend shirt offers extra stretch and a full lining for comfortable wear and a smooth-seam design for a tailored appearance",	
+"type": "Shirt",
+		"price": 15.99,
+		"available": true,
+		"images": [
+			{
+				"name": "shirt12.jpg"
+			}
+		]
+	},
+	{
+		"id" : 11,
+		"name":"Sleeve Shirts",
+"description":"Bring fun color to your dress wardrobe with this patterned slim-fit shirt. This cotton-blend shirt offers extra stretch and a full lining for comfortable wear and a smooth-seam design for a tailored appearance",	
+"type": "Shirt",
+		"price": 15.99,
+		"available": true,
+		"images": [
+			{
+				"name": "shirt13.jpg"
+			}
+		]
+	},
+	{
+		"id" : 12,
+		"name":"Sleeve Shirts",
+"description":"Bring fun color to your dress wardrobe with this patterned slim-fit shirt. This cotton-blend shirt offers extra stretch and a full lining for comfortable wear and a smooth-seam design for a tailored appearance",	
+"type": "Shirt",
+		"price": 15.99,
+		"available": true,
+		"images": [
+			{
+				"name": "shirt14.jpg"
+			}
+		]
+	}
+]

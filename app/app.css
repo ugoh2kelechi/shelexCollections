@@ -23,3 +23,54 @@
   content: "|";
   padding-right: 0.3em;
 }
+
+.shelex{
+	text-align: center;
+}
+
+.shelex img
+{
+	width: 70%;
+	height: 300px;
+}
+
+.shelex a{
+	width: 50%;
+	text-align: center;
+}
+
+.shelex col-md-4{
+	margin-bottom: 40px;
+}
+
+#detail-img{
+	width: 90%;
+}
+
+#thumbn{
+	width: 100%;
+}
+
+.navbar-inverse {
+  background-image: url('../img/shirts/bg.jpg');
+  border-color: #080808;
+}
+
+footer
+{
+    background-image: url('../img/shirts/bg.jpg');
+    color: #ffffff;
+}
+
+#soc{
+	margin-left: 10px;
+}
+       
+#abt
+{
+	width:90%;
+	height: 300px;
+} 
+
+
+

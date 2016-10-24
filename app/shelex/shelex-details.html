@@ -1,0 +1,52 @@
+<div class="row">
+	<a href="#/shelex"> Go back </a>
+	<br/><br/>
+	<div class="col-md-12">
+
+		<div class="col-md-4">
+			<img src="img/shirts/{{ mainImage }}" id="detail-img"/>
+			<div class="row">
+				<div ng-repeat="image in shelex.images | limitTo:4 ">
+					<div class="col-md-3">
+							<br/>
+							<img class="thumbnail" ng-src="img/shirts/{{ image.name }}" id="thumbn" ng-click="setImage(image)"/>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="col-md-8">
+			<h3> {{ shelex.name }} </h3>
+			<p> {{ shelex.description}}</p>
+			<b><i><p> {{ shelex.type }}</p></i></b>
+			<h4> {{ shelex.price | currency }}</h4>
+		</div>
+
+			<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+
+			  <!-- Identify your business so that you can collect the payments. -->
+			  <input type="hidden" name="business" value="greenisland.ltd@gmail.com">
+
+			  <!-- Specify a Buy Now button. -->
+			  <input type="hidden" name="cmd" value="_xclick">
+
+			  <!-- Specify details about the item that buyers will purchase. -->
+			  <input type="hidden" name="item_name" value="{{ shelex.name }}">
+			  <input type="hidden" name="amount" value="{{ shelex.price }}">
+			  <input type="hidden" name="item_number" value="{{ shelex.id }}">
+			  <input type="hidden" name="no_shipping" value="1">
+			  <input type="hidden" name="return" value="http://localhost:8000">
+			  <input type="hidden" name="cancel_return" value="http://localhost:8000">
+			  <input type="hidden" name="currency_code" value="USD">
+
+			  <!-- Display the payment button. -->
+			  <input type="image" name="submit" border="0"
+			  src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_buynow_107x26.png"
+			  alt="Buy Now">
+			  <img alt="" border="0" width="1" height="1"
+			  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+			</form>
+	</div>
+
+</div>

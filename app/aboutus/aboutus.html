@@ -1,0 +1,31 @@
+<!-- Page Content -->
+    <div class="container">
+
+        <!-- Introduction Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">About Us
+                    <small>It's Nice to Meet You!</small>
+                </h1>
+                <p> At ShelexCollections.com, we strive to provide our customers with quality products at the best prices possible. All the while, we make all efforts to give them a level of service that they will never forget, making them want to come back for more.</p>
+		<p>ShelexCollections.com invites the best and brightest to join our team of talented professionals. If you are the type of person who likes to find new and interesting ways to work efficiently, enjoys working with a diverse community of professionals in a friendly atmosphere, and is willing to go the extra mile to achieve goals, this is the place for you.</p>
+            </div>
+        </div>
+
+        <!-- Team Members Row -->
+        <div class="row">
+            <div class="col-lg-12"> 
+                <h2 class="page-header">Recently added collections</h2>
+            </div>
+
+            <div ng-repeat="aboutInfo in aboutInfos | limitTo:4">
+	            <div class="col-lg-6 col-sm-6 text-center">
+	                <img class="img-circle img-responsive img-center" src="img/shirts/{{ aboutInfo.images[0].name }}" id="abt">
+	                <h3>{{ aboutInfo.name }}</h3>
+	                <p>{{ aboutInfo.description }}</p>
+	            </div>
+	        </div>
+
+
+        </div>
+</div>
