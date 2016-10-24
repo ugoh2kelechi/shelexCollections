@@ -20,7 +20,7 @@
 
             <div ng-repeat="aboutInfo in aboutInfos | limitTo:4">
 	            <div class="col-lg-6 col-sm-6 text-center">
-	                <img class="img-circle img-responsive img-center" src="img/shirts/{{ aboutInfo.images[0].name }}" id="abt">
+	                <a href="#/shelex/{{ aboutInfo.id }}"><img class="img-circle img-responsive img-center" src="img/shirts/{{ aboutInfo.images[0].name }}" id="abt"></a>
 	                <h3>{{ aboutInfo.name }}</h3>
 	                <p>{{ aboutInfo.description }}</p>
 	            </div>
